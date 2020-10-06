@@ -1,0 +1,41 @@
+# Nmap 7.80 scan initiated Sun Oct  4 14:39:06 2020 as: nmap -sS -A -T4 -e tun0 -oN nmap.log -vv 10.10.233.31
+Nmap scan report for 10.10.233.31
+Host is up, received reset ttl 61 (0.39s latency).
+Scanned at 2020-10-04 14:39:07 CST for 76s
+Not shown: 999 closed ports
+Reason: 999 resets
+PORT   STATE SERVICE REASON         VERSION
+80/tcp open  http    syn-ack ttl 61 Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/fuel/
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Welcome to FUEL CMS
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=10/4%OT=80%CT=1%CU=32765%PV=Y%DS=4%DC=T%G=Y%TM=5F796E5
+OS:7%P=x86_64-unknown-linux-gnu)SEQ(SP=105%GCD=1%ISR=10D%TI=Z%CI=I%II=I%TS=
+OS:A)SEQ(SP=105%GCD=1%ISR=10D%TI=Z%CI=I%TS=A)OPS(O1=M508ST11NW7%O2=M508ST11
+OS:NW7%O3=M508NNT11NW7%O4=M508ST11NW7%O5=M508ST11NW7%O6=M508ST11)WIN(W1=68D
+OS:F%W2=68DF%W3=68DF%W4=68DF%W5=68DF%W6=68DF)ECN(R=Y%DF=Y%T=40%W=6903%O=M50
+OS:8NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(
+OS:R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F
+OS:=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T
+OS:=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RI
+OS:D=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 36.809 days (since Fri Aug 28 19:14:46 2020)
+Network Distance: 4 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 554/tcp)
+HOP RTT       ADDRESS
+1   165.86 ms 10.4.0.1
+2   ... 3
+4   411.13 ms 10.10.233.31
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct  4 14:40:23 2020 -- 1 IP address (1 host up) scanned in 76.74 seconds
