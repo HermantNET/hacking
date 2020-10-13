@@ -1,0 +1,1 @@
+# Nmap 7.80 scan initiated Sun Oct 11 05:43:52 2020 as: nmap -vv -e tun0 -sS -A -p- -T5 -oN nmap.txt 10.10.116.217

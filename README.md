@@ -72,3 +72,13 @@ Websites
 -   http://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 -   https://book.hacktricks.xyz/linux-unix/privilege-escalation
 -   https://github.com/swisskyrepo/PayloadsAllTheThings
+-   https://github.com/sundowndev/hacker-roadmap
+-   https://github.com/The-Art-of-Hacking/h4cker
+-   https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE
+-   https://github.com/enaqx/awesome-pentest
+
+# Login checklist
+- Find and try default login credentials
+- Look around locally for any possible usernames
+- OSINT, continue to build list of possible logins
+- All else fails, brute-force
